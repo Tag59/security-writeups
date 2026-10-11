@@ -15,6 +15,7 @@ traversal and injection in ML libraries and MLOps tooling.
 | [Breaking out of a RestrictedPython "sandbox" (Aim)](aim-cve-2025-5321/) | Aim ML tracker ≤3.29.1 | Sandbox escape → RCE (CWE-94) | Public CVE, educational analysis |
 | [A deserialization bug that came back (BentoML)](bentoml-cve-2025-32375/) | BentoML runner server | Insecure deserialization → RCE (CWE-502) | Public CVE, regression + root-cause analysis |
 | [Anatomy of an LLM-agent sandbox (smolagents)](smolagents-sandbox/) | smolagents LocalPythonExecutor | Sandbox escape → RCE (CWE-94) | Public CVE, mechanism + reproduction + residual-risk analysis |
+| [Variant analysis in the MCP ecosystem](mcp-variant-analysis/) | MCP servers (methodology) | Path traversal (CWE-22) | Method write-up; one finding under responsible disclosure |
 
 ## Related
 
